@@ -4,7 +4,7 @@ date: 2021-09-23T17:20
 
 # Bevy
 
-Bevy is a game engine written in [[ccdd77e8|Rust]].
+Bevy is a game engine written in [[Rust]].
 
 I have created a [gamebase](https://github.com/TheNeikos/bevy_spicy_gamebase) for the bevy game engine, which allows for quick game iterations with Aseprite and LDTK.
 
@@ -16,5 +16,4 @@ Bevy is an engine based around the ECS paradigm. The way one interacts with the 
 - `Res`/`ResMut` which allow access to global resources
 - `Query` which represents an ECS Query, it has two type components, one is the data one wants to query and the other is a filter.
   - These two parameters are the whole 'magic' of systems, as they allow to say things like "Every Car that has moved in the last frame" and do something with those
-- `Commands` which allows insertion/deletion of entities.
-  - More about them can be read in [[38996304|commands]]
+- [[38996304|Commands]]# which allows insertion/deletion of entities.
