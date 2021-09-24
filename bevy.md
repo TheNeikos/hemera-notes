@@ -16,3 +16,4 @@ Bevy is an engine based around the ECS paradigm. The way one interacts with the 
 - `Query` which represents an ECS Query, it has two type components, one is the data one wants to query and the other is a filter.
   - These two parameters are the whole 'magic' of systems, as they allow to say things like "Every Car that has moved in the last frame" and do something with those
 - [[38996304|Commands]]# which allows insertion/deletion of entities.
+- Systems themselves can be set to only run every few frames with `with_run_criteria` and use something like a `FixedTimestep`
