@@ -8,7 +8,6 @@ Bevy is a game engine written in [[Rust]].
 
 I have created a [gamebase](https://github.com/TheNeikos/bevy_spicy_gamebase) for the bevy game engine, which allows for quick game iterations with Aseprite and LDTK.
 
-
 ## Bevy Systems
 
 Bevy is an engine based around the ECS paradigm. The way one interacts with the actual data of the game is through _systems_. These are plain Rust functions that all implement a particular trait called `IntoSystem`. And this trait is implemented for all functions (up to 10~ parameters) that represent "World Interacting" structs. The main ones are:
